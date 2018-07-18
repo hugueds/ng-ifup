@@ -1,5 +1,8 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import {MatPaginator, MatTableDataSource, MatSort} from '@angular/material';
+import { ProjectService } from '../../shared/services/project.service';
+import { HttpClient } from '../../../../node_modules/@angular/common/http';
+import { Project } from '../../shared/models/project';
 
 export interface PeriodicElement {
   name: string;
@@ -24,11 +27,24 @@ const ELEMENT_DATA: PeriodicElement[] = [
 @Component({
   selector: 'app-project-table',
   templateUrl: './project-table.component.html',
-  styleUrls: ['./project-table.component.css']
+  styleUrls: ['./project-table.component.css'],
+  providers: [ProjectService, HttpClient]
 })
 
 
 export class ProjectTableComponent implements OnInit {
+
+  projects: Project[];
+
+  constructor(private _projectService: ProjectService) {
+    this._projectService.getAll().subscribe( (x: Project[]) => {
+      this.projects = x;
+      console.log(this.projects);
+    });
+    this._projectService.getById(1130).subscribe((x: Project) => {
+      console.log(x);
+    });
+  }
 
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = new MatTableDataSource<PeriodicElement>(ELEMENT_DATA);

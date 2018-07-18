@@ -8,6 +8,8 @@ import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { SearchComponent } from './components/search/search.component';
 import { ProjectTableComponent } from './components/project-table/project-table.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -19,9 +21,10 @@ import { ProjectTableComponent } from './components/project-table/project-table.
   ],
   imports: [
     BrowserModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [HttpClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
