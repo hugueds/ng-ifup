@@ -10,10 +10,16 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
+import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 const iemports = [
+  BrowserAnimationsModule,
   MatToolbarModule,
   MatButtonModule,
   MatMenuModule,
@@ -24,7 +30,10 @@ const iemports = [
   MatSnackBarModule,
   MatTableModule,
   MatProgressBarModule,
-  MatProgressSpinnerModule
+  MatProgressSpinnerModule,
+  MatFormFieldModule,
+  MatPaginatorModule,
+  MatSortModule
 ];
 
 @NgModule({
