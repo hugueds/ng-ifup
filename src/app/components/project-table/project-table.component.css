@@ -6,3 +6,10 @@ th.mat-sort-header-sorted {
     color: black;
 }
 
+.row-project-percent {
+    font-size: 1rem;
+}
+
+td.row-project-status {
+    font-size: 0.5rem;
+}
