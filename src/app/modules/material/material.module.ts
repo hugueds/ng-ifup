@@ -17,6 +17,7 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProjectDialogComponent } from '../../components/project-dialog/project-dialog.component';
 
 
 const iemports = [
@@ -46,6 +47,7 @@ const iemports = [
   exports: [
     iemports
   ],
+  entryComponents: [ProjectDialogComponent],
   declarations: []
 })
 export class MaterialModule { }

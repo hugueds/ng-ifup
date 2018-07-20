@@ -19,6 +19,7 @@ import { ResponsibleContainerComponent } from './containers/responsible-containe
 import { PrioritiesContainerComponent } from './containers/priorities-container/priorities-container.component';
 import { VdtContainerComponent } from './containers/vdt-container/vdt-container.component';
 import { ReportsContainerComponent } from './containers/reports-container/reports-container.component';
+import { ProjectDialogComponent } from './components/project-dialog/project-dialog.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { ReportsContainerComponent } from './containers/reports-container/report
     ResponsibleContainerComponent,
     PrioritiesContainerComponent,
     VdtContainerComponent,
-    ReportsContainerComponent
+    ReportsContainerComponent,
+    ProjectDialogComponent
   ],
   imports: [
     BrowserModule,

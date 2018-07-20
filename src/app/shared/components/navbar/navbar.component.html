@@ -1,8 +1,11 @@
 <mat-toolbar>
-    <div>IFUP</div> 
-    <button mat-button>RESPONSAVEIS</button>
-    <button mat-button>PRIORIDADES</button>
-    <button mat-button>VDT</button>
-    <button mat-button>RELATÓRIOS</button>
-    <button mat-button>LOGIN</button>
+    <div>IFUP</div>
+    <nav>
+        <button mat-button routerLink="/projects">HOME</button>
+        <button mat-button routerLink="/responsibles">RESPONSAVEIS</button>
+        <button mat-button routerLink="/priorities">PRIORIDADES</button>
+        <button mat-button routerLink="/vdt">VDT</button>
+        <button mat-button routerLink="/reports">RELATÓRIOS</button>
+        <button mat-button>LOGIN</button>
+    </nav>
 </mat-toolbar>
