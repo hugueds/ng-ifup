@@ -22,6 +22,9 @@ import { ReportsContainerComponent } from './containers/reports-container/report
 import { ProjectDialogComponent } from './components/project-dialog/project-dialog.component';
 import { CreateProjectContainerComponent } from './containers/create-project-container/create-project-container.component';
 import { NotFoundComponent } from './containers/not-found/not-found.component';
+import { LoginDialogComponent } from './components/login-dialog/login-dialog.component';
+import { ScheduleContainerComponent } from './containers/schedule-container/schedule-container.component';
+import { ScheduleComponent } from './components/schedule/schedule.component';
 
 
 @NgModule({
@@ -40,7 +43,10 @@ import { NotFoundComponent } from './containers/not-found/not-found.component';
     ReportsContainerComponent,
     ProjectDialogComponent,
     CreateProjectContainerComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    LoginDialogComponent,
+    ScheduleContainerComponent,
+    ScheduleComponent
   ],
   imports: [
     BrowserModule,

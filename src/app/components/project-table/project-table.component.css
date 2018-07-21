@@ -5,6 +5,7 @@ table {
 th.mat-header-cell {
     background-color: black;
     color: white;
+    text-align: center;
 }
 
 th.mat-sort-header-sorted {
@@ -16,5 +17,9 @@ td.row-project-percent {
 }
 
 td.row-project-status {
-    font-size: 0.5rem;
+    font-size: 0.55rem;
+}
+
+.project-cell, .activity-cell {
+    font-size: 0.6rem;
 }

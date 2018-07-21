@@ -47,10 +47,16 @@ export class ProjectTableComponent implements OnInit {
 
   openDialog(project: Project): void {
     const dialogRef = this.dialog.open(ProjectDialogComponent, {
-      // width: '100%',
+      // width: '10em',
       // height: 'auto',
       data: project
     });
   }
+
+  goToSchedule(projectId: number): void {
+    location.href = '/schedule/' + projectId;
+  }
+
+
 
 }

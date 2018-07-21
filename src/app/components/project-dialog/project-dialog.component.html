@@ -1,54 +1,148 @@
 <div>
 
+
   <div>
-    <div> DETALHES DA ATIVIDADES</div>
-    <div>(X)</div>
+    <h2 mat-dialog-title> {{ project.id }} - {{project.project}} </h2>
+    <button mat-button mat-dialog-close><mat-icon>clear</mat-icon></button>    
   </div>
 
-  <div>
-
-    <div>ID: <input type="text" value="{{project.id}}" /> </div>
-    <div>NOME DO PROJETO: <input type="text" value="{{project.project}}" /> </div>
-    <div>TIPO: <input type="text" value="{{project.type}}" /> </div>
-    <div>LINHA: <input type="text" value="{{project.line}}" /> </div>    
-    <div>FUNÇÃO: <input type="text" value="{{project.functionArea}}" /> </div>
-    <div>POSTO: <input type="text" value="{{project.station}}" /> </div>
-    <div>POSIÇÃO: <input type="text" value="{{project.position}}" />  </div>
-    <div>RESPONSÁVEL: <input type="text" value="{{project.responsible}}" /> </div>
-    <div>ENVOLVIDO 1:  <input type="text" value="{{project.involved_1}}" />  </div>
-    <div>ENVOLVIDO 2:  <input type="text" value="{{project.involved_2}}" />  </div>
-    <div>ENVOLVIDO 3:  <input type="text" value="{{project.involved_3}}" />  </div>
-    <div>INPUT:  <input type="text" value="{{project.input}}" /> </div>
-    <div>NCG: <input type="text" value="{{project.ncg}}" />  </div>
-    <div> MAQUINA TIPO:   <input type="text" value="{{project.machineType}}" /> </div>
-    <div> MAQUINA EXISTENTE?  <input type="text" value="{{project.isExistingTool}}" /> </div>
-    <div>ATIVIDADE: <input type="text" value="{{project.activity}}" />  </div> 
-    <div>INPUT-DATE: <input type="text" value="{{project.inputDate | date: 'dd/MM/yy'}}" /> </div>
-    <div>AD APROVAL: <input type="text" value="{{project.adAproval}}" /> </div>
-    <div>Nº PROJETO: <input type="text" value="{{project.projectNumber}}" /> </div>       
-    <div>VALOR(x $1000): <input type="text" value="{{project.projectBudget}}" /> </div>
-    <div>REQUISIÇÃO ALMOXARIFADO / OS  <input type="text" value="{{project.reqAlmox_OS}}" /> </div>
-    <div>STATUS REQUISIÇÃO <input type="text" value="{{project.statusReq_OS}}" />  </div>
-    <div>RC<input type="text" value="{{project.rcNumber}}" /> </div>
-    <div>RC STATUS <input type="text" value="{{project.rcStatus}}" />  </div>
-    <div>ORDER<input type="text" value="{{project.orderNumber}}" /> </div>
-    <div>LAYOUT E INFRAESTRUTURA <input type="text" value="{{project.infra_Layout}}" /> </div>
-    <div>TRY-OUT / INSTALAÇÃO  <input type="text" value="{{project.installation_TryOut | date: 'dd/MM/yy'}}" />  </div>
-    <div>HANDOVER <input type="text" value="{{project.handover | date: 'dd/MM/yy'}}" /> </div>
-    <div>STATUS  <input type="text" value="{{project.projectStatus}}" /> </div>
-    <div>FASE<input type="text" value="{{project.phase}}" />  </div>
-    <div>PORCENTAGEM (%)  <input type="text" value="{{project.projectPercent}}" /> </div>  
-    <div>COMENTÁRIOS    <input type="text" value="{{project.comments}}" />  </div> 
-    <div>PRIORIDADE<input type="text" value="{{project.priority}}" /> </div>
-    <div>NPR <input type="text" value="{{project.npr}}" />  </div>
+  <mat-dialog-content>    
     
-  </div>
+    <mat-form-field>      
+        <input matInput type="text" value="{{project.type}}" placeholder="TIPO" /> 
+    </mat-form-field>
+    <mat-form-field>
+      <div>LINHA:
+        <input matInput type="text" value="{{project.line}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>FUNÇÃO:
+        <input matInput type="text" value="{{project.functionArea}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>POSTO:
+        <input matInput type="text" value="{{project.station}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>POSIÇÃO:
+        <input matInput type="text" value="{{project.position}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>RESPONSÁVEL:
+        <input matInput type="text" value="{{project.responsible}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>ENVOLVIDO 1:
+        <input matInput type="text" value="{{project.involved_1}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>ENVOLVIDO 2:
+        <input matInput type="text" value="{{project.involved_2}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>ENVOLVIDO 3:
+        <input matInput type="text" value="{{project.involved_3}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>INPUT:
+        <input matInput type="text" value="{{project.input}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>NCG:
+        <input matInput type="text" value="{{project.ncg}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div> MAQUINA TIPO:
+        <input matInput type="text" value="{{project.machineType}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div> MAQUINA EXISTENTE?
+        <input matInput type="text" value="{{project.isExistingTool}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>ATIVIDADE:
+        <input matInput type="text" value="{{project.activity}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>INPUT DATE:
+        <input matInput type="text" value="{{project.inputDate | date: 'dd/MM/yy'}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>AD APROVAL:
+        <input matInput type="text" value="{{project.adAproval}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>Nº PROJETO:
+        <input matInput type="text" value="{{project.projectNumber}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>VALOR(x $1000):
+        <input matInput type="text" value="{{project.projectBudget}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>REQUISIÇÃO ALMOXARIFADO / OS
+        <input matInput type="text" value="{{project.reqAlmox_OS}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>STATUS REQUISIÇÃO
+        <input matInput type="text" value="{{project.statusReq_OS}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>RC
+        <input matInput type="text" value="{{project.rcNumber}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>RC STATUS
+        <input matInput type="text" value="{{project.rcStatus}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>ORDER
+        <input matInput type="text" value="{{project.orderNumber}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>LAYOUT E INFRAESTRUTURA
+        <input matInput type="text" value="{{project.infra_Layout}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>TRY-OUT / INSTALAÇÃO
+        <input matInput type="text" value="{{project.installation_TryOut | date: 'dd/MM/yy'}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>HANDOVER
+        <input matInput type="text" value="{{project.handover | date: 'dd/MM/yy'}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>STATUS
+        <input matInput type="text" value="{{project.projectStatus}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>FASE
+        <input matInput type="text" value="{{project.phase}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>PORCENTAGEM (%)
+        <input matInput type="text" value="{{project.projectPercent}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>COMENTÁRIOS
+        <input matInput type="text" value="{{project.comments}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>PRIORIDADE
+        <input matInput type="text" value="{{project.priority}}" /> </div>
+    </mat-form-field>
+    <mat-form-field>
+      <div>NPR
+        <input matInput type="text" value="{{project.npr}}" /> </div>
+    </mat-form-field>
 
-  <div>
-    <button mat-button>SALVAR</button>
-    <button mat-button>EDITAR</button>
-    <button mat-button color="warn">FECHAR</button>
-  </div>
+  </mat-dialog-content>
+
+  <mat-dialog-actions>
+    <button mat-flat-button	>SALVAR</button>
+    <button  mat-flat-button color="accent"> EDITAR</button>
+    <button mat-button color="warn"(click)="close()">FECHAR</button>
+  </mat-dialog-actions>
 
   <!-- {{project.phaseDelivery}} {{project | json}} -->
 
