@@ -1,11 +1,7 @@
-ul  {
-    
-    margin: 0 auto;
-    
+* {
+    display: flex;
 }
 
-li {
-    display: inline;
-    margin-left: 5%;
-
+footer div {
+    margin-left: 10%;
 }

@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  server: 'http://10.8.66.4'
+  server: 'http://10.8.66.4',
+  base: '/'
 };
 
 /*

@@ -1,0 +1,2767 @@
+[
+    {
+        "Id": 7,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 39,
+        "User": "SSBFCI"
+    },
+    {
+        "Id": 8,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 42,
+        "User": "SSBFCI"
+    },
+    {
+        "Id": 9,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 65,
+        "User": "SSBFCI"
+    },
+    {
+        "Id": 10,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 40,
+        "User": "SSBRSW"
+    },
+    {
+        "Id": 11,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 41,
+        "User": "SSBRSW"
+    },
+    {
+        "Id": 12,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 58,
+        "User": "SSBRSW"
+    },
+    {
+        "Id": 13,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 60,
+        "User": "SSBRSW"
+    },
+    {
+        "Id": 14,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 63,
+        "User": "SSBRSW"
+    },
+    {
+        "Id": 15,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 116,
+        "User": "SSBRSW"
+    },
+    {
+        "Id": 16,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 43,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 17,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 44,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 18,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 51,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 19,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 53,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 20,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 117,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 21,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 118,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 22,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 152,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 23,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 153,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 24,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 154,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 25,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 155,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 26,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 231,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 27,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 39,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 28,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 64,
+        "User": "SSBJGC"
+    },
+    {
+        "Id": 29,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 151,
+        "User": "SSBJGC"
+    },
+    {
+        "Id": 30,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 157,
+        "User": "SSBJGC"
+    },
+    {
+        "Id": 31,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 165,
+        "User": "SSBJGC"
+    },
+    {
+        "Id": 32,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 173,
+        "User": "SSBJGC"
+    },
+    {
+        "Id": 33,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 174,
+        "User": "SSBJGC"
+    },
+    {
+        "Id": 34,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 175,
+        "User": "SSBJGC"
+    },
+    {
+        "Id": 35,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 200,
+        "User": "SSBJGC"
+    },
+    {
+        "Id": 36,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 201,
+        "User": "SSBJGC"
+    },
+    {
+        "Id": 37,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 71,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 38,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 73,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 39,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 74,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 40,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 84,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 41,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 85,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 42,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 87,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 43,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 88,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 44,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 91,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 45,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 93,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 46,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 94,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 47,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 150,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 48,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 82,
+        "User": "SSBROX"
+    },
+    {
+        "Id": 49,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 83,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 50,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 114,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 51,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 115,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 52,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 202,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 53,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 209,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 54,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 220,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 55,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 226,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 56,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 227,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 57,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 234,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 58,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 169,
+        "User": "SSBJUA"
+    },
+    {
+        "Id": 59,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 205,
+        "User": "SSBJUA"
+    },
+    {
+        "Id": 60,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 156,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 61,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 228,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 62,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 170,
+        "User": "SSBHMR"
+    },
+    {
+        "Id": 63,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 171,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 64,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 203,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 65,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 215,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 66,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 216,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 67,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 217,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 68,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 218,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 69,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 204,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 70,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 206,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 71,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 208,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 72,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 221,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 73,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 222,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 74,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 224,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 75,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 225,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 76,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 230,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 77,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 233,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 78,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 207,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 79,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 214,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 80,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 219,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 81,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 210,
+        "User": "SSBDRA"
+    },
+    {
+        "Id": 82,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 229,
+        "User": "SSBDRA"
+    },
+    {
+        "Id": 83,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 213,
+        "User": "SSBVES"
+    },
+    {
+        "Id": 84,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 211,
+        "User": "SSBFCS"
+    },
+    {
+        "Id": 85,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 212,
+        "User": "SSBFCS"
+    },
+    {
+        "Id": 89,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 235,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 91,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 240,
+        "User": "SSBJUA"
+    },
+    {
+        "Id": 92,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 241,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 93,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 242,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 94,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 156,
+        "User": "SSBWEL"
+    },
+    {
+        "Id": 95,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 176,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 96,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 176,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 97,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 177,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 98,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 178,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 99,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 179,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 100,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 180,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 101,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 181,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 102,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 182,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 103,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 183,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 104,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 184,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 105,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 185,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 106,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 186,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 107,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 176,
+        "User": "SSBWEL"
+    },
+    {
+        "Id": 108,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 187,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 109,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 177,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 110,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 178,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 111,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 179,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 112,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 180,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 113,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 181,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 114,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 182,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 115,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 183,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 116,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 184,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 117,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 185,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 118,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 186,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 119,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 187,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 120,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 188,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 121,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 189,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 122,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 190,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 123,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 191,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 124,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 192,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 125,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 193,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 126,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 194,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 127,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 195,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 128,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 196,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 129,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 199,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 130,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 243,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 131,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 243,
+        "User": "SSBWEL"
+    },
+    {
+        "Id": 132,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 244,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 133,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 244,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 134,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 245,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 135,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 246,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 136,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 246,
+        "User": "SSBFPP"
+    },
+    {
+        "Id": 137,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 247,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 138,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 247,
+        "User": "SSBFPP"
+    },
+    {
+        "Id": 139,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 248,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 140,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 248,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 141,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 248,
+        "User": "SSBFPP"
+    },
+    {
+        "Id": 142,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 249,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 143,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 249,
+        "User": "SSBJUA"
+    },
+    {
+        "Id": 144,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 250,
+        "User": "SSBDRA"
+    },
+    {
+        "Id": 145,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 251,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 146,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 251,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 147,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 251,
+        "User": "SSBVES"
+    },
+    {
+        "Id": 148,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 225,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 149,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 224,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 150,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 252,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 151,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 252,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 152,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 253,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 153,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 253,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 154,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 254,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 155,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 254,
+        "User": "SSBIGP"
+    },
+    {
+        "Id": 156,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 254,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 157,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 255,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 158,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 255,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 159,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 256,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 160,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 256,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 161,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 257,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 162,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 257,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 163,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 258,
+        "User": "SSBHLA"
+    },
+    {
+        "Id": 164,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 259,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 165,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 260,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 166,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 261,
+        "User": "SSBDRA"
+    },
+    {
+        "Id": 167,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 248,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 168,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 262,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 169,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 263,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 170,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 264,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 171,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 265,
+        "User": "SSBJGC"
+    },
+    {
+        "Id": 172,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 265,
+        "User": "SSBFCI"
+    },
+    {
+        "Id": 173,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 62,
+        "User": "SSBFCI"
+    },
+    {
+        "Id": 174,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 198,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 175,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 266,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 176,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 266,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 177,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 266,
+        "User": "SSBRSW"
+    },
+    {
+        "Id": 178,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 266,
+        "User": "SSBSFR"
+    },
+    {
+        "Id": 179,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 531,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 180,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 531,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 181,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 532,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 182,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 532,
+        "User": "SSBVES"
+    },
+    {
+        "Id": 183,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 639,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 184,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 639,
+        "User": "SSBFCS"
+    },
+    {
+        "Id": 185,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 674,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 186,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 675,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 187,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 675,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 188,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 675,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 189,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 676,
+        "User": "SSBFCI"
+    },
+    {
+        "Id": 190,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 69,
+        "User": "SSBFCI"
+    },
+    {
+        "Id": 191,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 677,
+        "User": "SSBSFR"
+    },
+    {
+        "Id": 192,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 677,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 193,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 678,
+        "User": "SSBIOD"
+    },
+    {
+        "Id": 194,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 678,
+        "User": "SSBROX"
+    },
+    {
+        "Id": 195,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 678,
+        "User": "SSBJGC"
+    },
+    {
+        "Id": 196,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 679,
+        "User": "SSBSFR"
+    },
+    {
+        "Id": 197,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 679,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 198,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 200,
+        "User": "SSBIOD"
+    },
+    {
+        "Id": 199,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 174,
+        "User": "SSBIOD"
+    },
+    {
+        "Id": 200,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 173,
+        "User": "SSBIOD"
+    },
+    {
+        "Id": 201,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 201,
+        "User": "SSBIOD"
+    },
+    {
+        "Id": 202,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 175,
+        "User": "SSBIOD"
+    },
+    {
+        "Id": 203,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 681,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 204,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 680,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 205,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 681,
+        "User": "SSBFCS"
+    },
+    {
+        "Id": 206,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 680,
+        "User": "SSBFCS"
+    },
+    {
+        "Id": 207,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 682,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 208,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 682,
+        "User": "SSBVES"
+    },
+    {
+        "Id": 209,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 683,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 210,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 683,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 211,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 684,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 212,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 684,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 213,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 685,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 214,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 685,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 215,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 686,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 216,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 118,
+        "User": "SSBRSW"
+    },
+    {
+        "Id": 217,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 122,
+        "User": "SSBRSW"
+    },
+    {
+        "Id": 218,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 687,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 219,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 688,
+        "User": "SSBJGC"
+    },
+    {
+        "Id": 220,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 688,
+        "User": "SSBIOD"
+    },
+    {
+        "Id": 221,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 688,
+        "User": "SSBROX"
+    },
+    {
+        "Id": 222,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 689,
+        "User": "SSBJGC"
+    },
+    {
+        "Id": 223,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 689,
+        "User": "SSBIOD"
+    },
+    {
+        "Id": 224,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 689,
+        "User": "SSBROX"
+    },
+    {
+        "Id": 225,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 219,
+        "User": "SSBIGP"
+    },
+    {
+        "Id": 226,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 255,
+        "User": "SSBIGP"
+    },
+    {
+        "Id": 227,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 256,
+        "User": "SSBIGP"
+    },
+    {
+        "Id": 228,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 207,
+        "User": "SSBIGP"
+    },
+    {
+        "Id": 229,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 231,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 230,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 228,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 231,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 199,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 232,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 197,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 233,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 196,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 234,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 195,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 235,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 194,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 236,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 193,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 237,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 192,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 238,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 191,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 239,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 190,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 240,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 189,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 241,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 188,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 242,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 690,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 243,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 61,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 244,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 691,
+        "User": "SSBRSW"
+    },
+    {
+        "Id": 245,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 691,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 246,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 691,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 247,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 692,
+        "User": "SSBJUA"
+    },
+    {
+        "Id": 248,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 693,
+        "User": "SSBJUA"
+    },
+    {
+        "Id": 249,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 694,
+        "User": "SSBROX"
+    },
+    {
+        "Id": 250,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 694,
+        "User": "SSBJGC"
+    },
+    {
+        "Id": 251,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 694,
+        "User": "SSBRSW"
+    },
+    {
+        "Id": 252,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 694,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 253,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 695,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 254,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 696,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 255,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 697,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 256,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 698,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 257,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 699,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 258,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 699,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 259,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 228,
+        "User": "SSBFPP"
+    },
+    {
+        "Id": 260,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 698,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 261,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 698,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 262,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 219,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 263,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 700,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 264,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 700,
+        "User": "SSBJUA"
+    },
+    {
+        "Id": 265,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 701,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 266,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 701,
+        "User": "SSBJUA"
+    },
+    {
+        "Id": 267,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 702,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 268,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 702,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 269,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 703,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 270,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 704,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 271,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 704,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 272,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 705,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 273,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 705,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 274,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 706,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 275,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 706,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 276,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 61,
+        "User": "SSBJGC"
+    },
+    {
+        "Id": 277,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 707,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 278,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 708,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 279,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 709,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 280,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 710,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 281,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 711,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 282,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 712,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 283,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 713,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 284,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 714,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 285,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 711,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 286,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 715,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 287,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 715,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 288,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 715,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 289,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 716,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 290,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 716,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 291,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 716,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 292,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 153,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 293,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 154,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 294,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 677,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 295,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 679,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 296,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 717,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 297,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 717,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 298,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 718,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 299,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 719,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 300,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 719,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 301,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 719,
+        "User": "SSBDRA"
+    },
+    {
+        "Id": 302,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 720,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 303,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 720,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 304,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 65,
+        "User": "SSBROX"
+    },
+    {
+        "Id": 305,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 173,
+        "User": "SSBROX"
+    },
+    {
+        "Id": 306,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 174,
+        "User": "SSBROX"
+    },
+    {
+        "Id": 307,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 201,
+        "User": "SSBROX"
+    },
+    {
+        "Id": 308,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 175,
+        "User": "SSBROX"
+    },
+    {
+        "Id": 309,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 721,
+        "User": "SSBROX"
+    },
+    {
+        "Id": 310,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 55,
+        "User": "SSBRSW"
+    },
+    {
+        "Id": 311,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 42,
+        "User": "SSBRSW"
+    },
+    {
+        "Id": 312,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 719,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 313,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 150,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 314,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 722,
+        "User": "SSBROX"
+    },
+    {
+        "Id": 315,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 723,
+        "User": "SSBROX"
+    },
+    {
+        "Id": 316,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 723,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 317,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 723,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 318,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 724,
+        "User": "SSBROX"
+    },
+    {
+        "Id": 319,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 724,
+        "User": "SSBUIF"
+    },
+    {
+        "Id": 320,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 724,
+        "User": "SSBLED"
+    },
+    {
+        "Id": 321,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 725,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 322,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 725,
+        "User": "SSBROX"
+    },
+    {
+        "Id": 323,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1105,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 324,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1106,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 325,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1106,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 326,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1106,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 327,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1106,
+        "User": "SSBVES"
+    },
+    {
+        "Id": 328,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1107,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 329,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1107,
+        "User": "SSBDRA"
+    },
+    {
+        "Id": 330,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1107,
+        "User": "SSBDOO"
+    },
+    {
+        "Id": 331,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1107,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 332,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1106,
+        "User": "SSBFCS"
+    },
+    {
+        "Id": 333,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1107,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 334,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1108,
+        "User": "SSBVES"
+    },
+    {
+        "Id": 335,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 40,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 336,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 41,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 337,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 42,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 338,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 65,
+        "User": "SSBRSW"
+    },
+    {
+        "Id": 339,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 150,
+        "User": "SSBRSW"
+    },
+    {
+        "Id": 340,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1109,
+        "User": "SSBIGP"
+    },
+    {
+        "Id": 341,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 156,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 342,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1110,
+        "User": "SSBWEL"
+    },
+    {
+        "Id": 343,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 228,
+        "User": "SSBWEL"
+    },
+    {
+        "Id": 344,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 198,
+        "User": "SSBWEL"
+    },
+    {
+        "Id": 345,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 197,
+        "User": "SSBWEL"
+    },
+    {
+        "Id": 346,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1111,
+        "User": "SSBWEL"
+    },
+    {
+        "Id": 347,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1111,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 348,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1112,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 349,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1112,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 350,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1113,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 351,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1113,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 352,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1114,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 353,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1115,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 354,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1115,
+        "User": "SSBVES"
+    },
+    {
+        "Id": 355,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1115,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 356,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1116,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 357,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 212,
+        "User": "SSBDRA"
+    },
+    {
+        "Id": 358,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1117,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 359,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1117,
+        "User": "SSBODR"
+    },
+    {
+        "Id": 360,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1118,
+        "User": "SSBHPE"
+    },
+    {
+        "Id": 361,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1118,
+        "User": "SSBUCD"
+    },
+    {
+        "Id": 362,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 694,
+        "User": "SSBFCI"
+    },
+    {
+        "Id": 363,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 116,
+        "User": "SSBGOD"
+    },
+    {
+        "Id": 364,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1119,
+        "User": "SSBRSW"
+    },
+    {
+        "Id": 365,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 257,
+        "User": "SSBIGP"
+    },
+    {
+        "Id": 366,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1120,
+        "User": "SSBIGP"
+    },
+    {
+        "Id": 367,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1121,
+        "User": "SSBIGP"
+    },
+    {
+        "Id": 368,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1122,
+        "User": "SSBIGP"
+    },
+    {
+        "Id": 369,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1122,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 370,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1122,
+        "User": "SSBFCS"
+    },
+    {
+        "Id": 371,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1123,
+        "User": "SSBIGP"
+    },
+    {
+        "Id": 372,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1123,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 373,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1124,
+        "User": "SSBIGP"
+    },
+    {
+        "Id": 374,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1125,
+        "User": "SSBNGG"
+    },
+    {
+        "Id": 375,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1125,
+        "User": "SSBIGP"
+    },
+    {
+        "Id": 376,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1126,
+        "User": "SSBJII"
+    },
+    {
+        "Id": 377,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 1127,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 378,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1127,
+        "User": "SSBHAL"
+    },
+    {
+        "Id": 379,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1127,
+        "User": "SSBHMR"
+    },
+    {
+        "Id": 380,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 1127,
+        "User": "SSBWAI"
+    },
+    {
+        "Id": 381,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 892,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 382,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 893,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 383,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 894,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 384,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 891,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 385,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 896,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 386,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 897,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 387,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 898,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 388,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 899,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 389,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 900,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 390,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 890,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 391,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 905,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 392,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 886,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 393,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 906,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 394,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 907,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 395,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 908,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 396,
+        "Status": false,
+        "IsResponsible": false,
+        "ActivityId": 883,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 397,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 910,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 398,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 876,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 399,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 911,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 400,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 912,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 401,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 913,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 402,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 914,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 403,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 915,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 404,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 916,
+        "User": "SSBEXD"
+    },
+    {
+        "Id": 405,
+        "Status": false,
+        "IsResponsible": true,
+        "ActivityId": 917,
+        "User": "SSBEXD"
+    }
+]

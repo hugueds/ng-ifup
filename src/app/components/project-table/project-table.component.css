@@ -2,11 +2,16 @@ table {
     width: 100%;    
 }
 
+th.mat-header-cell {
+    background-color: black;
+    color: white;
+}
+
 th.mat-sort-header-sorted {
     color: black;
 }
 
-.row-project-percent {
+td.row-project-percent {
     font-size: 1rem;
 }
 

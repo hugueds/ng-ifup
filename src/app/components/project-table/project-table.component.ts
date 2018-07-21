@@ -37,9 +37,19 @@ export class ProjectTableComponent implements OnInit {
   ngOnInit() {
   }
 
-  openDialog(): void {
+  applyFilter(filterValue: string) {
+    this.dataSource.filter = filterValue.trim().toLowerCase();
+
+    if (this.dataSource.paginator) {
+      this.dataSource.paginator.firstPage();
+    }
+  }
+
+  openDialog(project: Project): void {
     const dialogRef = this.dialog.open(ProjectDialogComponent, {
-      width: '100px'
+      // width: '100%',
+      // height: 'auto',
+      data: project
     });
   }
 

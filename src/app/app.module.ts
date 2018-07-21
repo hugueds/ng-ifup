@@ -20,6 +20,8 @@ import { PrioritiesContainerComponent } from './containers/priorities-container/
 import { VdtContainerComponent } from './containers/vdt-container/vdt-container.component';
 import { ReportsContainerComponent } from './containers/reports-container/reports-container.component';
 import { ProjectDialogComponent } from './components/project-dialog/project-dialog.component';
+import { CreateProjectContainerComponent } from './containers/create-project-container/create-project-container.component';
+import { NotFoundComponent } from './containers/not-found/not-found.component';
 
 
 @NgModule({
@@ -36,7 +38,9 @@ import { ProjectDialogComponent } from './components/project-dialog/project-dial
     PrioritiesContainerComponent,
     VdtContainerComponent,
     ReportsContainerComponent,
-    ProjectDialogComponent
+    ProjectDialogComponent,
+    CreateProjectContainerComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

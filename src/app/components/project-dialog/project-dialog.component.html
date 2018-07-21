@@ -1,3 +1,55 @@
-<p>
-  project-dialog works!
-</p>
+<div>
+
+  <div>
+    <div> DETALHES DA ATIVIDADES</div>
+    <div>(X)</div>
+  </div>
+
+  <div>
+
+    <div>ID: <input type="text" value="{{project.id}}" /> </div>
+    <div>NOME DO PROJETO: <input type="text" value="{{project.project}}" /> </div>
+    <div>TIPO: <input type="text" value="{{project.type}}" /> </div>
+    <div>LINHA: <input type="text" value="{{project.line}}" /> </div>    
+    <div>FUNÇÃO: <input type="text" value="{{project.functionArea}}" /> </div>
+    <div>POSTO: <input type="text" value="{{project.station}}" /> </div>
+    <div>POSIÇÃO: <input type="text" value="{{project.position}}" />  </div>
+    <div>RESPONSÁVEL: <input type="text" value="{{project.responsible}}" /> </div>
+    <div>ENVOLVIDO 1:  <input type="text" value="{{project.involved_1}}" />  </div>
+    <div>ENVOLVIDO 2:  <input type="text" value="{{project.involved_2}}" />  </div>
+    <div>ENVOLVIDO 3:  <input type="text" value="{{project.involved_3}}" />  </div>
+    <div>INPUT:  <input type="text" value="{{project.input}}" /> </div>
+    <div>NCG: <input type="text" value="{{project.ncg}}" />  </div>
+    <div> MAQUINA TIPO:   <input type="text" value="{{project.machineType}}" /> </div>
+    <div> MAQUINA EXISTENTE?  <input type="text" value="{{project.isExistingTool}}" /> </div>
+    <div>ATIVIDADE: <input type="text" value="{{project.activity}}" />  </div> 
+    <div>INPUT-DATE: <input type="text" value="{{project.inputDate | date: 'dd/MM/yy'}}" /> </div>
+    <div>AD APROVAL: <input type="text" value="{{project.adAproval}}" /> </div>
+    <div>Nº PROJETO: <input type="text" value="{{project.projectNumber}}" /> </div>       
+    <div>VALOR(x $1000): <input type="text" value="{{project.projectBudget}}" /> </div>
+    <div>REQUISIÇÃO ALMOXARIFADO / OS  <input type="text" value="{{project.reqAlmox_OS}}" /> </div>
+    <div>STATUS REQUISIÇÃO <input type="text" value="{{project.statusReq_OS}}" />  </div>
+    <div>RC<input type="text" value="{{project.rcNumber}}" /> </div>
+    <div>RC STATUS <input type="text" value="{{project.rcStatus}}" />  </div>
+    <div>ORDER<input type="text" value="{{project.orderNumber}}" /> </div>
+    <div>LAYOUT E INFRAESTRUTURA <input type="text" value="{{project.infra_Layout}}" /> </div>
+    <div>TRY-OUT / INSTALAÇÃO  <input type="text" value="{{project.installation_TryOut | date: 'dd/MM/yy'}}" />  </div>
+    <div>HANDOVER <input type="text" value="{{project.handover | date: 'dd/MM/yy'}}" /> </div>
+    <div>STATUS  <input type="text" value="{{project.projectStatus}}" /> </div>
+    <div>FASE<input type="text" value="{{project.phase}}" />  </div>
+    <div>PORCENTAGEM (%)  <input type="text" value="{{project.projectPercent}}" /> </div>  
+    <div>COMENTÁRIOS    <input type="text" value="{{project.comments}}" />  </div> 
+    <div>PRIORIDADE<input type="text" value="{{project.priority}}" /> </div>
+    <div>NPR <input type="text" value="{{project.npr}}" />  </div>
+    
+  </div>
+
+  <div>
+    <button mat-button>SALVAR</button>
+    <button mat-button>EDITAR</button>
+    <button mat-button color="warn">FECHAR</button>
+  </div>
+
+  <!-- {{project.phaseDelivery}} {{project | json}} -->
+
+</div>

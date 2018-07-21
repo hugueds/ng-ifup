@@ -21,15 +21,22 @@ export class ProjectService {
   }
 
   getById(projectId: number): Observable<Project> {
-    return this._http.get<Project>(this.endPoint + '/' + projectId);
+    const url = this.endPoint + '/' + projectId;
+    return this._http.get<Project>(url);
   }
 
-  create() {
-
+  create(project: Project): Observable<Project> {
+    const url = this.endPoint + '/create-many';
+    return this._http.post<Project>(this.endPoint, project);
   }
 
-  createMany() {
+  createMany(projects: Project[]): Observable<Project[]> {
+    return this._http.post<Project[]>(this.endPoint, projects);
+  }
 
+  update(project: Project): Observable<Project> {
+    const url = this.endPoint + '/update';
+    return this._http.post<Project>(url, project);
   }
 
   generateEndPoint(): string {

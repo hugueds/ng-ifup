@@ -6,6 +6,7 @@ import { ResponsibleContainerComponent } from './containers/responsible-containe
 import { PrioritiesContainerComponent } from './containers/priorities-container/priorities-container.component';
 import { VdtContainerComponent } from './containers/vdt-container/vdt-container.component';
 import { ReportsContainerComponent } from './containers/reports-container/reports-container.component';
+import { NotFoundComponent } from './containers/not-found/not-found.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/projects', pathMatch: 'full' },
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: 'priorities', component: PrioritiesContainerComponent },
   { path: 'vdt', component: VdtContainerComponent },
   { path: 'reports', component: ReportsContainerComponent },
-  { path: 'details/:id', component: DetailsContainerComponent }
+  { path: 'details/:id', component: DetailsContainerComponent },
+  { path: '**', component: NotFoundComponent }
 ];
 
 @NgModule({
