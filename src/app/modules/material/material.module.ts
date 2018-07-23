@@ -18,8 +18,12 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
+import {MatTabsModule} from '@angular/material/tabs';
+
+
 
 import { ProjectDialogComponent } from '../../components/project-dialog/project-dialog.component';
+import { MatNativeDateModule } from '../../../../node_modules/@angular/material';
 
 
 const iemports = [
@@ -39,7 +43,9 @@ const iemports = [
   MatPaginatorModule,
   MatSortModule,
   MatCardModule,
-  MatInputModule
+  MatInputModule,
+  MatTabsModule,
+  MatNativeDateModule
 ];
 
 @NgModule({
@@ -50,7 +56,7 @@ const iemports = [
   exports: [
     iemports
   ],
-  entryComponents: [ProjectDialogComponent],
+  entryComponents: [ProjectDialogComponent, ],
   declarations: []
 })
 export class MaterialModule { }

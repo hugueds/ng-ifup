@@ -8,10 +8,12 @@ import { VdtContainerComponent } from './containers/vdt-container/vdt-container.
 import { ReportsContainerComponent } from './containers/reports-container/reports-container.component';
 import { NotFoundComponent } from './containers/not-found/not-found.component';
 import { ScheduleContainerComponent } from 'src/app/containers/schedule-container/schedule-container.component';
+import { CreateProjectContainerComponent } from './containers/create-project-container/create-project-container.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/projects', pathMatch: 'full' },
   { path: 'projects', component: ProjectContainerComponent },
+  { path: 'create', component: CreateProjectContainerComponent },
   { path: 'responsibles', component: ResponsibleContainerComponent },
   { path: 'priorities', component: PrioritiesContainerComponent },
   { path: 'vdt', component: VdtContainerComponent },

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Project } from 'src/app/shared/models/project';
 
 @Component({
   selector: 'app-create-project-container',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreateProjectContainerComponent implements OnInit {
 
-  constructor() { }
+  project: Project;
+
+  constructor(private _http: HttpClient) { }
 
   ngOnInit() {
+    this.project = new Project();
+  }
+
+  save() {
+
   }
 
 }

@@ -25,6 +25,7 @@ import { NotFoundComponent } from './containers/not-found/not-found.component';
 import { LoginDialogComponent } from './components/login-dialog/login-dialog.component';
 import { ScheduleContainerComponent } from './containers/schedule-container/schedule-container.component';
 import { ScheduleComponent } from './components/schedule/schedule.component';
+import { ActivityDialogComponent } from './components/activity-dialog/activity-dialog.component';
 
 
 @NgModule({
@@ -46,7 +47,8 @@ import { ScheduleComponent } from './components/schedule/schedule.component';
     NotFoundComponent,
     LoginDialogComponent,
     ScheduleContainerComponent,
-    ScheduleComponent
+    ScheduleComponent,
+    ActivityDialogComponent
   ],
   imports: [
     BrowserModule,

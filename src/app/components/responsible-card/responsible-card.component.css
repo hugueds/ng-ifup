@@ -1,0 +1,14 @@
+.wrapper {
+  border: red 1px solid;
+  max-width: 10%;;
+}
+
+img {
+  background-size: cover;
+}
+
+.example-header-image {
+  background-size: cover;
+  width: 7rem;
+  height: 7rem;
+}
