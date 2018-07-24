@@ -1,11 +1,13 @@
 <mat-tab-group backgroundColor="warn">
-  <mat-tab  label="Pessoas">
-    <app-responsible-card person="SSBHPE" ></app-responsible-card>
+  <mat-tab label="Pessoas">
+    <div  class="resposibles-wrapper">
+      <app-responsible-card  *ngFor="let i of fakeArray" person="SSBHPE"></app-responsible-card>      
+    </div>
     <!-- <app-responsible-card></app-responsible-card>
     <app-responsible-card></app-responsible-card>
     <app-responsible-card></app-responsible-card> -->
   </mat-tab>
   <mat-tab label="Atividades do Dia">
-      <!-- <app-responsible-card></app-responsible-card> -->
-    </mat-tab>
+    <!-- <app-responsible-card></app-responsible-card> -->
+  </mat-tab>
 </mat-tab-group>

@@ -26,6 +26,7 @@ import { LoginDialogComponent } from './components/login-dialog/login-dialog.com
 import { ScheduleContainerComponent } from './containers/schedule-container/schedule-container.component';
 import { ScheduleComponent } from './components/schedule/schedule.component';
 import { ActivityDialogComponent } from './components/activity-dialog/activity-dialog.component';
+import { PercentageDirective } from './shared/directives/percentage.directive';
 
 
 @NgModule({
@@ -48,7 +49,8 @@ import { ActivityDialogComponent } from './components/activity-dialog/activity-d
     LoginDialogComponent,
     ScheduleContainerComponent,
     ScheduleComponent,
-    ActivityDialogComponent
+    ActivityDialogComponent,
+    PercentageDirective
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,8 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator, MatTableDataSource, MatSort, MatDialog } from '@angular/material';
+import { HttpClient } from '@angular/common/http';
+
 import { ProjectService } from '../../shared/services/project.service';
-import { HttpClient } from '../../../../node_modules/@angular/common/http';
 import { Project } from '../../shared/models/project';
 import { Utils } from '../../shared/scripts/utils';
 import { ProjectDialogComponent } from '../project-dialog/project-dialog.component';

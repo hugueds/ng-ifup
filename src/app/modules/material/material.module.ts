@@ -18,12 +18,13 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
-import {MatTabsModule} from '@angular/material/tabs';
-
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatNativeDateModule } from '@angular/material';
 
 
 import { ProjectDialogComponent } from '../../components/project-dialog/project-dialog.component';
-import { MatNativeDateModule } from '../../../../node_modules/@angular/material';
+
+import { LoginDialogComponent } from '../../components/login-dialog/login-dialog.component';
 
 
 const iemports = [
@@ -56,7 +57,7 @@ const iemports = [
   exports: [
     iemports
   ],
-  entryComponents: [ProjectDialogComponent, ],
+  entryComponents: [ProjectDialogComponent, LoginDialogComponent],
   declarations: []
 })
 export class MaterialModule { }

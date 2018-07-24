@@ -2,6 +2,11 @@ table {
     width: 100%;    
 }
 
+tr:hover {
+    background-color: blueviolet;
+    color: white !important;
+}
+
 th.mat-header-cell {
     background-color: black;
     color: white;

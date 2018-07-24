@@ -9,9 +9,12 @@ export class ResponsibleContainerComponent implements OnInit {
 
   people = ['SSBHPE', 'SSBUIF', 'SSBROX'];
 
+  fakeArray = new Array(27);
+
   constructor() { }
 
   ngOnInit() {
+    console.log(this.fakeArray);
   }
 
 }

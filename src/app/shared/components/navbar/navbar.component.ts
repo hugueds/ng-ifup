@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '../../../../../node_modules/@angular/material';
+import { LoginDialogComponent } from '../../../components/login-dialog/login-dialog.component';
 
 @Component({
   selector: 'app-navbar',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _dialog: MatDialog) { }
 
   ngOnInit() {
+  }
+
+  openLoginDialog() {
+    const loginRef = this._dialog.open(LoginDialogComponent, {
+
+    });
   }
 
 }

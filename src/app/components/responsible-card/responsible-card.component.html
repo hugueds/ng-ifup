@@ -1,5 +1,10 @@
 <div class="wrapper">
-    <img [src]="imageSrc" alt="">
-    <button mat-raised-button >RESPONSÁVEL</button>
-    <button mat-raised-button >ENVOLVIDO</button>
+    <div>
+        <img [src]="imageSrc" [alt]="person">
+        <span>{{person}}</span>
+    </div>
+    <div>
+        <button mat-raised-button>RESPONSÁVEL</button>
+        <button mat-raised-button>ENVOLVIDO</button>
+    </div>
 </div>
