@@ -1,35 +1,30 @@
-<mat-form-field>
-    <mat-select placeholder="FUNÇÃO" [(value)]=selected>
-        <mat-option>A</mat-option>
-        <mat-option>B</mat-option>
-        <mat-option>C</mat-option>
-    </mat-select>
-</mat-form-field>
+<div class="wrapper">
 
-<mat-form-field>
-    <mat-select placeholder="STATUS" [(value)]=selecte2d>
-        <mat-option>A</mat-option>
-        <mat-option>B</mat-option>
-        <mat-option>C</mat-option>
-    </mat-select>
-</mat-form-field>
+    <mat-form-field>
+        <mat-select (change)="filterData($event)" placeholder="FUNÇÃO" [(value)]="filter.functionArea">
+            <mat-option *ngFor="let f of constants.FUNCTION_AREAS" [value]="f"> {{f}}</mat-option>
+        </mat-select>
+    </mat-form-field>
 
-<mat-form-field>
-    <mat-select placeholder="TIPO" [(value)]=selec2ted>
-        <mat-option>A</mat-option>
-        <mat-option>B</mat-option>
-        <mat-option>C</mat-option>
-    </mat-select>
-</mat-form-field>
+    <mat-form-field>
+        <mat-select placeholder="STATUS" [(value)]="filter.status">
+            <mat-option *ngFor="let s of constants.STATUS" [value]="s"> {{s}}</mat-option>
+        </mat-select>
+    </mat-form-field>
 
-<mat-form-field>
-    <mat-select placeholder="INPUT" [(value)]=se2lected>
-        <mat-option>A</mat-option>
-        <mat-option>B</mat-option>
-        <mat-option>C</mat-option>
-    </mat-select>
-</mat-form-field>
+    <mat-form-field>
+        <mat-select placeholder="TIPO" [(value)]="filter.type">
+            <mat-option *ngFor="let f of constants.TYPES" [value]="f"> {{f}}</mat-option>
+        </mat-select>
+    </mat-form-field>
 
+    <mat-form-field>
+        <mat-select placeholder="INPUT" [(value)]="filter.input">
+            <mat-option *ngFor="let f of constants.INPUTS" [value]="f"> {{f}}</mat-option>
+        </mat-select>
+    </mat-form-field>
 
-<button mat-button>FILTRAR</button>
+    <button (click)="filterData(filter)" mat-button>FILTRAR</button>
+</div>
 
+{{filter | json}}

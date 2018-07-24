@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
-import { Observable } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
 import { Project } from '../models/project';
 
 @Injectable({
@@ -12,8 +12,15 @@ export class ProjectService {
   private api = '/api/';
   private endPoint: string;
 
+  private projectSource = new Subject<Project[]>();
+  projects = this.projectSource.asObservable();
+
   constructor(private _http: HttpClient) {
     this.endPoint = this.generateEndPoint();
+  }
+
+  updateProjectList(projects: Project[]) {
+    this.projectSource.next(projects);
   }
 
   getAll(): Observable<Project[]> {
