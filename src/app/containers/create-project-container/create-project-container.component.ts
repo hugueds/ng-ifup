@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+
 import { Project } from 'src/app/shared/models/project';
+import { ProjectService } from '../../shared/services/project.service';
+import { Constants } from '../../shared/data/constants';
 
 @Component({
   selector: 'app-create-project-container',
@@ -10,15 +13,18 @@ import { Project } from 'src/app/shared/models/project';
 export class CreateProjectContainerComponent implements OnInit {
 
   project: Project;
+  constants: any;
 
-  constructor(private _http: HttpClient) { }
+  constructor(private _projectService: ProjectService) {
+    this.constants = Constants;
+  }
 
   ngOnInit() {
     this.project = new Project();
   }
 
-  save() {
-
+  save(project: Project) {
+    // this._projectService.create(project);
   }
 
 }

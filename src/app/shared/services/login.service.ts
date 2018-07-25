@@ -7,9 +7,16 @@ import { Observable } from 'rxjs';
 })
 export class LoginService {
 
+  private server: string;
+  private endPoint: string;
+
+  logged: boolean;
+  user: string;
+  sessionId: string;
+
   constructor(private _http: HttpClient) { }
 
-  autenticate({user, password}): Observable<any> {
+  autenticate({ user, password }): Observable<any> {
     return this._http.post('', user);
   }
 
@@ -19,6 +26,8 @@ export class LoginService {
 
   logoff() {
     sessionStorage.removeItem('user');
+    sessionStorage.removeItem('sessionId');
+    sessionStorage.setItem('logged', 'false');
   }
 
 
