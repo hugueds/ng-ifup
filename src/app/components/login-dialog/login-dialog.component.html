@@ -2,14 +2,14 @@
   <h2 mat-log-title>LOGIN</h2>
   <mat-dialog-content>
     <mat-form-field>
-      <input matInput type="text" placeholder="SSB" />
+      <input matInput type="text" placeholder="SSB"  [(ngModel)]="login.user" name="user"/>
     </mat-form-field>
     <mat-form-field>
-      <input matInput type="password" placeholder="SENHA" />
+      <input matInput type="password" placeholder="SENHA" [(ngModel)]="login.pass" name="pass"/>
     </mat-form-field>
 
     <mat-dialog-actions>
-      <button mat-raised-button mat-dialog-close color="primary">
+      <button (click)="send(login)" mat-raised-button mat-dialog-close color="primary">
         LOGIN
       </button>
       <button mat-button mat-dialog-close color="warn">

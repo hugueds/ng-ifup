@@ -27,6 +27,7 @@ import { ScheduleContainerComponent } from './containers/schedule-container/sche
 import { ScheduleComponent } from './components/schedule/schedule.component';
 import { ActivityDialogComponent } from './components/activity-dialog/activity-dialog.component';
 import { PercentageDirective } from './shared/directives/percentage.directive';
+import { FormsModule } from '../../node_modules/@angular/forms';
 
 
 @NgModule({
@@ -55,6 +56,7 @@ import { PercentageDirective } from './shared/directives/percentage.directive';
   imports: [
     BrowserModule,
     MaterialModule,
+    FormsModule,
     HttpClientModule,
     AppRoutingModule
   ],

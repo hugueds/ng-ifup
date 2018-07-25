@@ -1,14 +1,19 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { map, tap } from 'rxjs/operators';
+
+export interface Login {
+  user: string;
+  pass: string;
+}
 
 @Injectable({
   providedIn: 'root'
 })
 export class LoginService {
 
-  private server: string;
-  private endPoint: string;
+  private loginServer = 'http://10.8.66.4:5001/AdSvc/Service1.svc/ValidateUser';
 
   logged: boolean;
   user: string;
@@ -16,15 +21,28 @@ export class LoginService {
 
   constructor(private _http: HttpClient) { }
 
-  autenticate({ user, password }): Observable<any> {
-    return this._http.post('', user);
+  autenticate(login: Login): Observable<boolean> {
+    return this._http.post(this.loginServer, login).pipe(
+      map(res => {
+        return this.validate(login, res);
+      })
+    );
   }
 
-  private login() {
-    console.log(123);
+  private validate(login: Login, response: any): boolean {
+    this.logged = false;
+    if (response['ValidateUserResult'] === 'Ok') {
+      this.logged = true;
+      sessionStorage.setItem('user', login.user);
+      sessionStorage.setItem('sessionId', new Date() + login.user);
+      sessionStorage.setItem('logged', 'true');
+    }
+    return this.logged;
   }
+
 
   logoff() {
+    this.logged = false;
     sessionStorage.removeItem('user');
     sessionStorage.removeItem('sessionId');
     sessionStorage.setItem('logged', 'false');

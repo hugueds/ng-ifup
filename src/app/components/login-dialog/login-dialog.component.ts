@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LoginService, Login } from 'src/app/shared/services/login.service';
 
 @Component({
   selector: 'app-login-dialog',
@@ -7,9 +8,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginDialogComponent implements OnInit {
 
-  constructor() { }
+  login: Login;
+
+  constructor(private _loginService: LoginService) {
+
+  }
 
   ngOnInit() {
+    this.login = {
+      user: '',
+      pass: ''
+    };
+  }
+
+  send(login: Login) {
+    this._loginService.autenticate(login).subscribe(data => {
+      if (data) {
+        console.log('Aceito');
+      } else {
+        console.log('Rejeitado');
+      }
+    });
   }
 
 }
