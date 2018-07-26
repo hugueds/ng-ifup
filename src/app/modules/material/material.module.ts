@@ -19,7 +19,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
 import { MatTabsModule } from '@angular/material/tabs';
-import { MatNativeDateModule } from '@angular/material';
+import { MatNativeDateModule, MAT_DATE_LOCALE } from '@angular/material';
 
 
 import { ProjectDialogComponent } from '../../components/project-dialog/project-dialog.component';
@@ -58,6 +58,9 @@ const iemports = [
     iemports
   ],
   entryComponents: [ProjectDialogComponent, LoginDialogComponent],
-  declarations: []
+  declarations: [],
+  providers: [{
+    provide: MAT_DATE_LOCALE, useValue: 'pt-BR'
+  }]
 })
 export class MaterialModule { }

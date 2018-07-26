@@ -17,13 +17,17 @@ export class CreateProjectContainerComponent implements OnInit {
 
   constructor(private _projectService: ProjectService) {
     this.constants = Constants;
+    this.project = new Project();
+    this.project.inputDate = new Date();
   }
 
   ngOnInit() {
-    this.project = new Project();
+ 
   }
 
   save(project: Project) {
+    console.log(123);
+    console.log(project);
     // this._projectService.create(project);
   }
 
