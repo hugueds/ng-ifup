@@ -1,149 +1,154 @@
 <div>
+  {{project | json}}
+  <form #projectForm="ngForm" (ngSubmit)="edit(projectForm.value)">
+    <mat-dialog-content>
+      <mat-form-field>
+        <input matInput type="text" placeholder="NOME DO PROJETO" [(ngModel)]="project.project" name="project" />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="TIPO" [(ngModel)]="project.type" name="type">
+          <mat-option *ngFor="let t of constants.TYPES" [value]="t">{{t}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="LINHA" [(ngModel)]="project.line" name="line">
+          <mat-option *ngFor="let l of constants.LINES" [value]="l">{{l}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="FUNÇÃO" [(ngModel)]="project.functionArea" name="functionArea">
+          <mat-option *ngFor="let f of constants.FUNCTION_AREAS" [value]="f">{{f}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="POSTO" [(ngModel)]="project.station" name="station">
+          <mat-option *ngFor="let s of constants.STATIONS" [value]="s">{{s}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="POSIÇÃO" [(ngModel)]="project.position" name="position">
+          <mat-option *ngFor="let p of constants.POSITIONS" [value]="p">{{p}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="RESPONSÁVEL" [(ngModel)]="project.responsible" name="responsible">
+          <mat-option *ngFor="let r of constants.RESPONSIBLES" [value]="r">{{r}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="ENVOLVIDO 1" [(ngModel)]="project.involved_1" name="involved_1">
+          <mat-option *ngFor="let e of constants.RESPONSIBLES" [value]="e">{{e}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="ENVOLVIDO 2" [(ngModel)]="project.involved_2" name="involved_2">
+          <mat-option *ngFor="let e of constants.RESPONSIBLES" [value]="e">{{e}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="ENVOLVIDO 3" [(ngModel)]="project.involved_3" name="involved_3">
+          <mat-option *ngFor="let e of constants.RESPONSIBLES" [value]="e">{{e}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="INPUT" [(ngModel)]="project.input" name="input">
+          <mat-option *ngFor="let i of constants.INPUTS" [value]="i">{{i}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="NCG" [(ngModel)]="project.ncg" name="ncg">
+          <mat-option *ngFor="let n of constants.NCG" [value]="n">{{n}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="MAQUINA TIPO" [(ngModel)]="project.machineType" name="machineType">
+          <mat-option *ngFor="let m of constants.MACHINE_TYPES" [value]="m">{{m}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="MAQUINA EXISTENTE" [(ngModel)]="project.isExistingTool" name="isExistingTool">
+          <mat-option value=1>SIM</mat-option>
+          <mat-option value=0>NÃO</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="ATIVIDADE" [(ngModel)]="project.activity" type="text" name="activity" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput [matDatepicker]="inputDate" placeholder="INPUT DATE" [(ngModel)]="project.inputDate" name="inputDate" />
+        <mat-datepicker-toggle matSuffix [for]="inputDate"></mat-datepicker-toggle>
+        <mat-datepicker #inputDate></mat-datepicker>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="AD APROVAL" [(ngModel)]=" project.adAproval" type="text" name="adAproval" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Nº PROJETO" [(ngModel)]=" project.projectNumber" type="text" name="projectNumber" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="VALOR(x$1000)" [(ngModel)]=" project.projectBudget" type="number" name="projectBudget" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="REQUISIÇÃO / ALMOXARIFADO" [(ngModel)]="project.reqAlmox_OS" type="text" name="reqAlmox_OS"
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="STATUS REQUISIÇÃO" [(ngModel)]=" project.statusReq_OS " type="text" name="statusReq_OS" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="RC Nº" [(ngModel)]="project.rcNumber" type="number" name="rcNumber" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="RC STATUS" [(ngModel)]="project.rcStatus" type="text" name="rcStatus" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="ORDER Nº" [(ngModel)]="project.orderNumber" type="number" name="orderNumber" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="LAYOUT E INFRA" [(ngModel)]="project.infra_Layout" type="text" name="infra_Layout" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput [matDatepicker]="tryOut_installation" placeholder="TRY-OUT / INSTALAÇÃO" [(ngModel)]="project.tryOut_installation"
+          name="tryOut_installation" />
+        <mat-datepicker-toggle matSuffix [for]="tryOut_installation"></mat-datepicker-toggle>
+        <mat-datepicker #tryOut_installation></mat-datepicker>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput [matDatepicker]="handover" placeholder="HANDOVER" [(ngModel)]="project.handover" name="handover" />
+        <mat-datepicker-toggle matSuffix [for]="handover"></mat-datepicker-toggle>
+        <mat-datepicker #handover></mat-datepicker>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="STATUS" [(ngModel)]="project.status" name="status">
+          <mat-option *ngFor="let s of constants.STATUS" [value]="s">{{s}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="FASE" [(ngModel)]="project.phase" name="phase">
+          <mat-option *ngFor="let p of constants.PHASES" [value]="p.name">{{p.name}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="PORCENTAGEM (%)" [(ngModel)]="project.projectPercent" name="projectPercent" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="COMENTÁRIOS" [(ngModel)]="project.comments" type="text" name="comments" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="PRIORIDADE" [(ngModel)]="project.priority" type="number" name="priority" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="NPR" [(ngModel)]="project.npr" type="number" name="npr" />
+      </mat-form-field>
 
-  <div class="dialog-header">
-    <h1 mat-dialog-title> {{ project.id }} - {{project.project}} </h1>
-    <button mat-button mat-dialog-close>
-      <mat-icon>clear</mat-icon>
-    </button>
-  </div>
+    </mat-dialog-content>
 
-  <mat-dialog-content>
-    <mat-form-field>
-      <!-- <input matInput type="text" value="{{project.type}}" placeholder="TIPO" /> -->
-      <mat-select placeholder="TIPO">
-        <mat-option *ngFor="let t of constants.TYPES" [value]="t">{{t}}</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field>
-      <mat-select placeholder="LINHA">
-        <mat-option *ngFor="let l of constants.LINES" [value]="l">{{l}}</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field>
-      <mat-select placeholder="FUNÇÃO">
-        <mat-option *ngFor="let f of constants.FUNCTION_AREAS" [value]="f">{{f}}</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field>
-      <mat-select placeholder="POSTO">
-        <mat-option *ngFor="let s of constants.STATIONS" [value]="s">{{s}}</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field>
-      <mat-select placeholder="POSIÇÃO">
-        <mat-option *ngFor="let p of constants.POSITIONS" [value]="p">{{p}}</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field>
-      <mat-select placeholder="RESPONSÁVEL">
-        <mat-option *ngFor="let r of constants.RESPONSIBLES" [value]="r">{{r}}</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field>
-      <mat-select placeholder="ENVOLVIDO 1">
-        <mat-option *ngFor="let l of constants.LINES" [value]="l">{{l}}</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field>
-      <mat-select placeholder="ENVOLVIDO 2">
-        <mat-option *ngFor="let l of constants.LINES" [value]="l">{{l}}</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field>
-      <mat-select placeholder="ENVOLVIDO 3">:
-        <mat-option *ngFor="let l of constants.LINES" [value]="l">{{l}}</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field>
-      <mat-select placeholder="INPUT">
-        <mat-option *ngFor="let l of constants.LINES" [value]="l">{{l}}</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field>
-      <mat-select placeholder="NCG">
-        <mat-option *ngFor="let l of constants.LINES" [value]="l">{{l}}</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field>
-      <mat-select placeholder="MAQUINA TIPO">
-        <mat-option *ngFor="let l of constants.LINES" [value]="l">{{l}}</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field>
-      <mat-select placeholder="MAQUINA EXISTENTE?">
-        <mat-option value="SIM">SIM</mat-option>
-        <mat-option value="NÃO">NÃO</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field>
-      <input placeholder="ATIVIDADE" matInput type="text" value="{{project.activity}}" />
-    </mat-form-field>
-    <mat-form-field>
-      <input placeholder="INPUT DATE" matInput type="date" value="{{project.inputDate | date: 'dd/MM/yy'}}" />
-    </mat-form-field>
-    <mat-form-field>
-      <input placeholder="AD APROVAL" matInput type="text" value="{{project.adAproval | date: 'dd/MM/yy'}}" />
-    </mat-form-field>
-    <mat-form-field>      
-        <input placeholder="Nº PROJETO" matInput type="text" value="{{project.projectNumber}}" />
-    </mat-form-field>
-    <mat-form-field>
-      <input placeholder="VALOR(x $1000):" matInput type="number" value="{{project.projectBudget}}" />
-    </mat-form-field>
-    <mat-form-field>
-      <input placeholder="REQUISIÇÃO ALMOXARIFADO / OS" matInput type="text" value="{{project.reqAlmox_OS}}" />
-    </mat-form-field>
-    <mat-form-field>
-      <input placeholder="STATUS REQUISIÇÃO" matInput type="text" value="{{project.statusReq_OS}}" />
-    </mat-form-field>
-    <mat-form-field>      
-        <input placeholder="RC" matInput type="number" value="{{project.rcNumber}}" /> 
-    </mat-form-field>
-    <mat-form-field>
-      <div>RC STATUS
-        <input matInput type="text" value="{{project.rcStatus}}" /> </div>
-    </mat-form-field>
-    <mat-form-field>      
-        <input placeholder="ORDER" matInput type="number" value="{{project.orderNumber}}" /> 
-    </mat-form-field>
-    <mat-form-field>      
-        <input placeholder="LAYOUT E INFRA" matInput type="text" value="{{project.infra_Layout}}" />
-    </mat-form-field>
-    <mat-form-field>      
-        <input placeholder="TRY-OUT / INSTALAÇÃO" matInput type="date" value="{{project.installation_TryOut | date: 'dd/MM/yy'}}" /> 
-    </mat-form-field>
-    <mat-form-field>      
-        <input placeholder="HANDOVER" matInput type="date" value="{{project.handover | date: 'dd/MM/yy'}}" />       
-    </mat-form-field>
-    <mat-form-field>
-      <div>STATUS
-        <input matInput type="text" value="{{project.projectStatus}}" /> </div>
-    </mat-form-field>
-    <mat-form-field>
-      <div>FASE
-        <input matInput type="text" value="{{project.phase}}" /> </div>
-    </mat-form-field>
-    <mat-form-field>
-      <input placeholder="PORCENTAGEM (%)" matInput type="number" min=0 max=100 value="{{project.projectPercent}}" />
-    </mat-form-field>
-    <mat-form-field>
-      <input placeholder="COMENTÁRIOS" matInput type="text" value="{{project.comments}}" />
-    </mat-form-field>
-    <mat-form-field>
-      <input placeholder="PRIORIDADE" matInput type="number" value="{{project.priority}}" />
-    </mat-form-field>
-    <mat-form-field>
-      <input placeholder="NPR" matInput type="number" value="{{project.npr}}" />
-    </mat-form-field>
-
-  </mat-dialog-content>
-
-  <mat-dialog-actions>
-    <button mat-flat-button>SALVAR</button>
-    <button mat-flat-button color="accent"> EDITAR</button>
-    <button mat-button color="warn" (click)="close()">FECHAR</button>
-  </mat-dialog-actions>
-
+    <mat-dialog-actions>
+      <button mat-flat-button>SALVAR</button>
+      <button mat-flat-button>EDITAR</button>
+      <button mat-flat-button>FECHAR</button>
+    </mat-dialog-actions>
+  </form>
   <!-- {{project.phaseDelivery}} {{project | json}} -->
 
 </div>

@@ -23,6 +23,10 @@ export class ProjectDialogComponent implements OnInit {
 
   }
 
+  edit(project: Project) {
+
+  }
+
   close(): void {
     this.dialogRef.close();
   }
