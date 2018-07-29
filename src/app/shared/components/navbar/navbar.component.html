@@ -1,11 +1,15 @@
 <mat-toolbar>
-    <div>IFUP</div>
-    <nav>
-        <button mat-button routerLink="/projects">HOME</button>
-        <button mat-button routerLink="/responsibles">RESPONSAVEIS</button>
-        <button mat-button routerLink="/priorities">PRIORIDADES</button>
-        <button mat-button routerLink="/vdt">VDT</button>
-        <button mat-button routerLink="/reports">RELATÓRIOS</button>
-        <button mat-raised-button color="accent" (click)="openLoginDialog()">LOGIN</button>
-    </nav>
+    <mat-toolbar-row>
+        <div class="logo">
+            <img src="assets/images/scania.png" alt="">
+        </div>
+        <span class="title">IFUP</span>
+        <button mat-button routerLinkActive="active-link" routerLink="/projects">HOME</button>
+        <button mat-button routerLinkActive="active-link" routerLink="/responsibles">RESPONSAVEIS</button>
+        <button mat-button routerLinkActive="active-link" routerLink="/priorities">PRIORIDADES</button>
+        <button mat-button routerLinkActive="active-link" routerLink="/vdt">VDT</button>
+        <button mat-button routerLinkActive="active-link" routerLink="/reports">RELATÓRIOS</button>
+        <span class="spacer"></span>
+        <button mat-raised-button color="accent" (click)="openLoginDialog()">LOGIN</button>      
+    </mat-toolbar-row>
 </mat-toolbar>

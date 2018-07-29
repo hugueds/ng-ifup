@@ -1,8 +1,25 @@
 mat-toolbar {
     background-color: black !important;
-    color: white;    
+    color: white;
+}
+
+.logo {
+    padding: 0;
+    margin-bottom: -0.5%;
+}
+.title {
+    font-size: 1.2em;
+    margin-right: 2%;
+}
+
+.active-link {
+    background-color: dimgrey;
 }
 
 button:hover {
     background-color: dimgrey;
+}
+
+.spacer {
+    flex: 1 1 auto;
 }

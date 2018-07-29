@@ -28,6 +28,7 @@ import { ScheduleComponent } from './components/schedule/schedule.component';
 import { ActivityDialogComponent } from './components/activity-dialog/activity-dialog.component';
 import { PercentageDirective } from './shared/directives/percentage.directive';
 import { FormsModule } from '../../node_modules/@angular/forms';
+import { TodayCardComponent } from './components/today-card/today-card.component';
 
 
 @NgModule({
@@ -51,7 +52,8 @@ import { FormsModule } from '../../node_modules/@angular/forms';
     ScheduleContainerComponent,
     ScheduleComponent,
     ActivityDialogComponent,
-    PercentageDirective
+    PercentageDirective,
+    TodayCardComponent
   ],
   imports: [
     BrowserModule,

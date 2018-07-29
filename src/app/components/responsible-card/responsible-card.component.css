@@ -1,16 +1,39 @@
 .wrapper {
-  border: red 1px solid;  
-  width: 10rem;
+  border: black 2px solid;  
+  display: block;
+  align-content: center;
+  max-width: 6rem;
+  align-self: center;
+  align-items: center;
 }
 
-img {
-  background-size: cover;
-  border-radius: 50%;
-  width: 5rem;
-  height: 5rem;
+.picture {  
+  display: flex;
+  flex: 1 auto;
+  align-content: center;
+  justify-content: center;
 }
 
-.example-header-image {
+.picture img {  
+  justify-content: center;
+  align-content: center;
   background-size: cover;
-  width: 5rem;  
+  border-radius: 60%;
+  width: 3.8rem;
+  height: 3.5rem;
 }
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons button {  
+  padding: 0;  
+  font-size: 0.7rem;
+}
+

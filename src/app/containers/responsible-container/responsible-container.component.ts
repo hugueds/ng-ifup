@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ResponsibleContainerComponent implements OnInit {
 
   people = ['SSBHPE', 'SSBUIF', 'SSBROX'];
+  regularDistribution = 100 / 3;
 
   fakeArray = new Array(27);
 

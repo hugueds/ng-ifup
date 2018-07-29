@@ -16,7 +16,7 @@ export class NavbarComponent implements OnInit {
 
   openLoginDialog() {
     const loginRef = this._dialog.open(LoginDialogComponent, {
-
+      height: '300px'
     });
   }
 

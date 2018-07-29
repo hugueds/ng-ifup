@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
@@ -25,6 +27,7 @@ import { MatNativeDateModule, MAT_DATE_LOCALE } from '@angular/material';
 import { ProjectDialogComponent } from '../../components/project-dialog/project-dialog.component';
 
 import { LoginDialogComponent } from '../../components/login-dialog/login-dialog.component';
+import { ActivityDialogComponent } from '../../components/activity-dialog/activity-dialog.component';
 
 
 const iemports = [
@@ -46,7 +49,8 @@ const iemports = [
   MatCardModule,
   MatInputModule,
   MatTabsModule,
-  MatNativeDateModule
+  MatNativeDateModule,
+  FlexLayoutModule
 ];
 
 @NgModule({
@@ -57,7 +61,7 @@ const iemports = [
   exports: [
     iemports
   ],
-  entryComponents: [ProjectDialogComponent, LoginDialogComponent],
+  entryComponents: [ProjectDialogComponent, LoginDialogComponent, ActivityDialogComponent],
   declarations: [],
   providers: [{
     provide: MAT_DATE_LOCALE, useValue: 'pt-BR'

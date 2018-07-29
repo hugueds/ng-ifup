@@ -1,7 +1,9 @@
-.resposibles-wrapper {
-    border: 1px solid #000;
-    width: 90%;
-    margin-top: 1%;
-    display: flex;
-    
+.responsibles-wrapper {
+
+}
+
+app-responsible-card {
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 1.5%;
 }

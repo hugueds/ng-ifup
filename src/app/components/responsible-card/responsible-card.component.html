@@ -1,10 +1,9 @@
 <div class="wrapper">
-    <div>
-        <img [src]="imageSrc" [alt]="person">
-        <span>{{person}}</span>
+    <div class="picture">
+        <img [src]="imageSrc" [alt]="person">        
     </div>
-    <div>
-        <button mat-raised-button>RESPONSÁVEL</button>
-        <button mat-raised-button>ENVOLVIDO</button>
+    <div class="buttons">
+        <button mat-raised-button color="primary" (click)="open('resp')">RESPONSÁVEL</button>
+        <button mat-raised-button color="secondary" (click)="open('invol')">ENVOLVIDO</button>
     </div>
 </div>
