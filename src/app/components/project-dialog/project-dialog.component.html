@@ -145,8 +145,8 @@
 
     <mat-dialog-actions>
       <button mat-flat-button>SALVAR</button>
-      <button mat-flat-button>EDITAR</button>
-      <button mat-flat-button>FECHAR</button>
+      <button mat-flat-button (click)="edit(project)">EDITAR</button>
+      <button mat-flat-button mat-dialog-close>FECHAR</button>
     </mat-dialog-actions>
   </form>
   <!-- {{project.phaseDelivery}} {{project | json}} -->

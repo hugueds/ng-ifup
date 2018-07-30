@@ -25,7 +25,12 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/pit-scheduler/dist/js/moment.js",
+              "./node_modules/pit-scheduler/dist/js/datetimepicker.js",              
+              "./node_modules/pit-scheduler/dist/js/pitscheduler.min.js"
+            ]
           },
           "configurations": {
             "production": {

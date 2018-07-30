@@ -1,4 +1,4 @@
-<div>
+<ng-container>
   {{project | json}}
   <form #projectForm="ngForm" (ngSubmit)="save(projectForm.value)">
     <mat-dialog-content>
@@ -149,4 +149,4 @@
   </form>
   <!-- {{project.phaseDelivery}} {{project | json}} -->
 
-</div>
+</ng-container>

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import * as $ from '../../../assets/js/jquery.min.js';
-import pit from '../../../assets/js/pitscheduler.min.js';
+
+declare var JQuery: JQuery;
 
 @Component({
   selector: 'app-schedule',
@@ -9,15 +9,10 @@ import pit from '../../../assets/js/pitscheduler.min.js';
 })
 export class ScheduleComponent implements OnInit {
 
-  jQuery = $;
-
-  // $.pitScheduler = pit;
-
   constructor() { }
 
   ngOnInit() {
-
-    // $('#pit-scheduler').pitScheduler();
+    $('#scheduler').pitScheduler({});
   }
 
 }

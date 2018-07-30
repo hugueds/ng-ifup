@@ -1,9 +1,17 @@
 <div>
-  <!-- <h2 mat-dialog-title> {{ project.id }} - {{project.project}} </h2> -->
+  <h2 mat-dialog-title> Atividades </h2> 
   <button mat-button mat-dialog-close>
     <mat-icon>clear</mat-icon>
   </button>
   <mat-dialog-content>
-    
+      <button (click)="openProject(1)" mat-raised-button mat-dialog-close color="primary">VER</button>
   </mat-dialog-content>    
+  <mat-dialog-actions>
+      <button (click)="save()" mat-raised-button mat-dialog-close color="primary">
+        SALVAR
+      </button>
+      <button mat-button mat-dialog-close color="warn">
+        FECHAR
+      </button>
+    </mat-dialog-actions>
 </div>
