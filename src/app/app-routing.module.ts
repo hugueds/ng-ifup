@@ -9,6 +9,7 @@ import { ReportsContainerComponent } from './containers/reports-container/report
 import { NotFoundComponent } from './containers/not-found/not-found.component';
 import { ScheduleContainerComponent } from 'src/app/containers/schedule-container/schedule-container.component';
 import { CreateProjectContainerComponent } from './containers/create-project-container/create-project-container.component';
+import { OrganizationComponent } from './containers/organization/organization.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/projects', pathMatch: 'full' },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'priorities', component: PrioritiesContainerComponent },
   { path: 'vdt', component: VdtContainerComponent },
   { path: 'reports', component: ReportsContainerComponent },
+  { path: 'organization', component: OrganizationComponent },
   { path: 'details/:id', component: DetailsContainerComponent },
   { path: 'schedule/:id', component: ScheduleContainerComponent },
   { path: '**', component: NotFoundComponent }
