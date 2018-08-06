@@ -7,3 +7,13 @@ app-responsible-card {
     margin-left: 3%;
     margin-top: 1.5%;
 }
+
+.today-container {
+    
+}
+
+app-today-card {
+    width: 100%;
+    flex: 1 0 auto;
+}
+

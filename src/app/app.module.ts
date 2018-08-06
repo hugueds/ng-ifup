@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './/app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 import { MaterialModule } from './modules/material/material.module';
 
 
@@ -27,9 +27,13 @@ import { ScheduleContainerComponent } from './containers/schedule-container/sche
 import { ScheduleComponent } from './components/schedule/schedule.component';
 import { ActivityDialogComponent } from './components/activity-dialog/activity-dialog.component';
 import { PercentageDirective } from './shared/directives/percentage.directive';
-import { FormsModule } from '../../node_modules/@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { TodayCardComponent } from './components/today-card/today-card.component';
 import { OrganizationComponent } from './containers/organization/organization.component';
+import { PieChartComponent } from './components/pie-chart/pie-chart.component';
+import { GooglePieChartService } from 'src/app/shared/services/GooglePieChartService';
+import { PrioritiesTableComponent } from './components/priorities-table/priorities-table.component';
+import { ScheduleFormComponent } from './components/schedule-form/schedule-form.component';
 
 
 @NgModule({
@@ -55,7 +59,10 @@ import { OrganizationComponent } from './containers/organization/organization.co
     ActivityDialogComponent,
     PercentageDirective,
     TodayCardComponent,
-    OrganizationComponent
+    OrganizationComponent,
+    PieChartComponent,
+    PrioritiesTableComponent,
+    ScheduleFormComponent
   ],
   imports: [
     BrowserModule,
@@ -64,7 +71,7 @@ import { OrganizationComponent } from './containers/organization/organization.co
     HttpClientModule,
     AppRoutingModule
   ],
-  providers: [HttpClient],
+  providers: [HttpClient, GooglePieChartService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

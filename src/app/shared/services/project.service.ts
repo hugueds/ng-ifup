@@ -47,7 +47,7 @@ export class ProjectService {
     return this._http.post<Project>(url, project).pipe(map(res => res));
   }
 
-  generateEndPoint(): string {
+  private generateEndPoint(): string {
     return environment.server + '/ltsapi/api/dashboard';
   }
 

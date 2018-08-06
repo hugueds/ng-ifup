@@ -6,4 +6,38 @@ import { Injectable } from '@angular/core';
 export class ScheduleService {
 
   constructor() { }
+
+  getTasks() {
+
+  }
+
+  addTask() {
+
+  }
+
+  updateTask() {
+
+  }
+
+  removeTask() {
+
+  }
+
+  getUserTasks() {
+
+  }
+
+  addUserTask() {
+
+  }
+
+  updateUserTask() {
+
+  }
+
+  removeUserTask() {
+
+  }
+
+
 }

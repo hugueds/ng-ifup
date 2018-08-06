@@ -1,3 +1,10 @@
-<ng-container>
-  <img [src]="pictureUrl" />
-</ng-container>
+<div class="wrapper">
+  <div class="picture">
+    <img [src]="pictureUrl" />
+  </div>
+  <div class="activities-container" >
+    <ng-container class="activities" *ngFor="let act of activities; let i = index ">    
+      <div class="activity">ATIVIDADE {{i}}</div>      
+    </ng-container>
+  </div>
+</div>

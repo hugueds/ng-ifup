@@ -1,7 +1,9 @@
-* {
+footer {
     display: flex;
+    width: 100%;
 }
 
-footer div {
-    margin-left: 10%;
+footer > div {    
+    margin-left: 10%;    
+    flex: 1 1 auto;
 }

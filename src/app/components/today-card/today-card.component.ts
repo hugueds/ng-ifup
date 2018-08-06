@@ -8,15 +8,15 @@ import { Component, OnInit, Input } from '@angular/core';
 export class TodayCardComponent implements OnInit {
 
   @Input() person: string;
+  pictureUrl: string;
 
   private src = '/assets/images/colaboradores';
-  pictureUrl = '';
+  activities = new Array(10);
 
   constructor() { }
 
   ngOnInit() {
     this.pictureUrl = `${this.src}/${this.person}.jpg`;
-    setTimeout(() => this.pictureUrl = `${this.src}/SSBUIF.jpg`, 2300);
   }
 
 }

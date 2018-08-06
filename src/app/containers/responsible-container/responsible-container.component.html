@@ -6,14 +6,19 @@
 
 
 <mat-tab-group backgroundColor="warn">
-  <mat-tab label="Pessoas">
-    <div class="responsibles-wrapper" >
-      <ng-container *ngFor="let p of fakeArray"> 
-          <app-responsible-card person="SSBHPE"></app-responsible-card>
-      </ng-container>
-    </div>    
-  </mat-tab>
   <mat-tab label="Atividades do Dia">
-    <app-today-card person="SSBHPE"></app-today-card>
+    <div class="today-container">
+      <app-today-card person="SSBHPE"></app-today-card>
+      <app-today-card person="SSBHPE"></app-today-card>
+      <app-today-card person="SSBHPE"></app-today-card>
+    </div>
   </mat-tab>
+  <mat-tab label="Pessoas">
+    <div class="responsibles-wrapper">
+      <ng-container *ngFor="let p of fakeArray">
+        <app-responsible-card person="SSBHPE"></app-responsible-card>
+      </ng-container>
+    </div>
+  </mat-tab>
+
 </mat-tab-group>

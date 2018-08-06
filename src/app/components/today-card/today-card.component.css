@@ -1,0 +1,31 @@
+.wrapper {
+    background-color: aqua;
+    border: 2px solid black;        
+    width: 30%;
+    margin-left: 2%;    
+    display: flex;
+    align-items: center;
+}
+
+.picture{
+    width: 25%;
+    max-width: 300px; 
+    border: 1px solid pink;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.activities-container {
+    width: 100%;
+    border: 1px solid blue;
+    text-align: center;    
+}
+
+.activity {
+    background-color: goldenrod;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+}
+

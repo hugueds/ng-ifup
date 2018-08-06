@@ -1,2 +1,7 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~pit-scheduler/dist/css/pitscheduler.min.css';
+
+#scheduler {
+    margin: 0 auto;
+    width: 95%;
+}

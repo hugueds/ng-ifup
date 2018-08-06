@@ -7,7 +7,7 @@ import { PrioritiesContainerComponent } from './containers/priorities-container/
 import { VdtContainerComponent } from './containers/vdt-container/vdt-container.component';
 import { ReportsContainerComponent } from './containers/reports-container/reports-container.component';
 import { NotFoundComponent } from './containers/not-found/not-found.component';
-import { ScheduleContainerComponent } from 'src/app/containers/schedule-container/schedule-container.component';
+import { ScheduleContainerComponent } from './containers/schedule-container/schedule-container.component';
 import { CreateProjectContainerComponent } from './containers/create-project-container/create-project-container.component';
 import { OrganizationComponent } from './containers/organization/organization.component';
 
