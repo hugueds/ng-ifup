@@ -25,7 +25,7 @@ export class ProjectTableComponent implements OnInit {
 
   constructor(private _projectService: ProjectService, public dialog: MatDialog) {
     this._projectService.getAll().subscribe((pjs: Project[]) => {
-      this.projects  = pjs.map((p) => Utils.toCamel(p));
+      this.projects = pjs.map((p) => Utils.toCamel(p));
       this.dataSource = new MatTableDataSource<Project>(this.projects);
       this.dataSource.sort = this.sort;
       this.dataSource.paginator = this.paginator;
@@ -38,8 +38,13 @@ export class ProjectTableComponent implements OnInit {
   ngOnInit() {
   }
 
+
+
   applyFilter(filterValue: string) {
-    this.dataSource.filter = filterValue.trim().toLowerCase();
+
+    // this.dataSource.filter = filterValue.trim().toLowerCase();
+
+    
 
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();

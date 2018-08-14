@@ -12,14 +12,14 @@ import { CreateProjectContainerComponent } from './containers/create-project-con
 import { OrganizationComponent } from './containers/organization/organization.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/projects', pathMatch: 'full' },
-  { path: 'projects', component: ProjectContainerComponent },
-  { path: 'create', component: CreateProjectContainerComponent },
-  { path: 'responsibles', component: ResponsibleContainerComponent },
-  { path: 'priorities', component: PrioritiesContainerComponent },
-  { path: 'vdt', component: VdtContainerComponent },
-  { path: 'reports', component: ReportsContainerComponent },
-  { path: 'organization', component: OrganizationComponent },
+  { path: '', redirectTo: 'automation/projects', pathMatch: 'full' },
+  { path: 'automation/projects', component: ProjectContainerComponent },
+  { path: 'automation/create', component: CreateProjectContainerComponent },
+  { path: 'automation/responsibles', component: ResponsibleContainerComponent },
+  { path: 'automation/priorities', component: PrioritiesContainerComponent },
+  { path: 'vdt/deviations', component: VdtContainerComponent },
+  { path: 'automation/reports', component: ReportsContainerComponent },
+  { path: 'automation/organization', component: OrganizationComponent },
   { path: 'details/:id', component: DetailsContainerComponent },
   { path: 'schedule/:id', component: ScheduleContainerComponent },
   { path: '**', component: NotFoundComponent }

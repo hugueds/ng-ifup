@@ -47,6 +47,11 @@ export class ProjectService {
     return this._http.post<Project>(url, project).pipe(map(res => res));
   }
 
+  delete(project: Project): Observable<Project> {
+    const url = this.endPoint;
+    return this._http.delete<Project>(url).pipe(map(res => res));
+  }
+
   private generateEndPoint(): string {
     return environment.server + '/ltsapi/api/dashboard';
   }
