@@ -1,64 +1,99 @@
 <div class="wrapper">
 
-  <mat-form-field>
-    <input matInput (keyup)="applyFilter($event.target.value)" placeholder="FILTRO">
-  </mat-form-field>
+  <div class="filter-container">
 
-  <mat-form-field>
-    <input matInput (keyup)="applyColumnFilter('id', $event.target.value)" placeholder="FILTRO">
-  </mat-form-field>
+    <mat-form-field>
+      <input matInput (keyup)="applyColumnFilter('id', +$event.target.value)" placeholder="ID">
+    </mat-form-field>
 
-  
+    <mat-form-field>
+      <mat-select (selectionChange)="applyColumnFilter('functionArea', $event.value)" name="functionArea" placeholder="FUNÇÃO">
+        <mat-option value="FA0">FA0</mat-option>
+        <mat-option value="FA 1.1">FA1.1</mat-option>
+        <mat-option value="FA2">FA2</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-select (selectionChange)="applyColumnFilter('status', $event.value)" name="functionArea" placeholder="STATUS">
+        <mat-option value="FA0">FA0</mat-option>
+        <mat-option value="FA 1.1">FA1.1</mat-option>
+        <mat-option value="FA2">FA2</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-select (selectionChange)="applyColumnFilter('type', $event.value)" name="functionArea" placeholder="TIPO">
+        <mat-option value="FA0">FA0</mat-option>
+        <mat-option value="FA 1.1">FA1.1</mat-option>
+        <mat-option value="FA2">FA2</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-select (selectionChange)="applyColumnFilter('input', $event.value)" name="functionArea" placeholder="INPUT">
+        <mat-option value="FA0">FA0</mat-option>
+        <mat-option value="FA 1.1">FA1.1</mat-option>
+        <mat-option value="FA2">FA2</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
 
   <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
 
     <ng-container matColumnDef="id">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> No. </th>
+      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> ID</th>
       <td mat-cell *matCellDef="let element"> {{element.id}} </td>
     </ng-container>
 
     <ng-container matColumnDef="functionArea">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> Função </th>
+      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> FUNÇÃO </th>
       <td mat-cell *matCellDef="let element"> {{element.functionArea}} </td>
     </ng-container>
 
     <ng-container matColumnDef="project">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> Projeto </th>
+      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> PROJETO </th>
       <td class="project-cell" mat-cell *matCellDef="let element"> {{element.project}} </td>
     </ng-container>
 
     <ng-container matColumnDef="activity">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> Atividade </th>
+      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> ATIVIDADE </th>
       <td class="activity-cell" mat-cell *matCellDef="let element"> {{element.activity}} </td>
     </ng-container>
 
     <ng-container matColumnDef="projectStatus">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> Status</th>
+      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> STATUS </th>
       <td class="row-project-status" mat-cell *matCellDef="let element"> {{element.projectStatus}} </td>
     </ng-container>
 
     <ng-container matColumnDef="projectPercent">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> %</th>
+      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> % </th>
       <td class="row-project-percent" mat-cell *matCellDef="let element">
         <!-- <div [appPercentage]="element.projectPercent">{{element.projectPercent}}</div> -->
         <div>{{element.projectPercent}}</div>
       </td>
     </ng-container>
 
+    <ng-container matColumnDef="phaseDelivery">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> DELIV </th>
+      <td mat-cell *matCellDef="let element"> {{element.phaseDelivery | date: 'dd/MM/yy'}} </td>
+    </ng-container>
+
     <ng-container matColumnDef="handover">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> Handover </th>
+      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> HANDOVER </th>
       <td mat-cell *matCellDef="let element"> {{element.handover | date: 'dd/MM/yy'}} </td>
     </ng-container>
 
     <ng-container matColumnDef="calendar">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> Calendario</th>
+      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> CALEND </th>
       <td mat-cell *matCellDef="let element">
         <button mat-icon-button color="default" (click)="goToSchedule(element.id)"><mat-icon>event </mat-icon> </button>
       </td>
     </ng-container>
 
     <ng-container matColumnDef="details">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> Detalhes</th>
+      <th mat-header-cell *matHeaderCellDef mat-sort-header mat-sort-header> DETALHES</th>
       <td mat-cell *matCellDef="let element">
         <button mat-icon-button (click)="openDialog(element)"><mat-icon>visibility</mat-icon></button>
       </td>

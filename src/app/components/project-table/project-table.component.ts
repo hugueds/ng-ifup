@@ -20,8 +20,9 @@ export class ProjectTableComponent implements OnInit {
   projects: Project[];
   dataSource: MatTableDataSource<Project>;
   displayedColumns: string[] = [
-    'id', 'functionArea', 'project', 'activity', 'projectStatus', 'projectPercent', 'handover', 'calendar', 'details'
+    'id', 'functionArea', 'project', 'activity', 'projectStatus', 'projectPercent', 'phaseDelivery', 'handover', 'calendar', 'details'
   ];
+  activeFilters = [];
 
   constructor(private _projectService: ProjectService, public dialog: MatDialog) {
     this._projectService.getAll().subscribe((pjs: Project[]) => {
@@ -44,11 +45,26 @@ export class ProjectTableComponent implements OnInit {
 
     // this.dataSource.filter = filterValue.trim().toLowerCase();
 
-    
 
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
     }
+  }
+
+  applyColumnFilter(column, filterValue: string) {
+
+    console.log(filterValue);
+
+    if (filterValue === '') {
+      this.activeFilters.splice(this.activeFilters.indexOf(column), 1);
+      return;
+    }
+
+    this.dataSource.filterPredicate = (data: Project, filter: string) => {
+      return data[column] === filter;
+    };
+
+    this.dataSource.filter = filterValue;
   }
 
   openDialog(project: Project): void {

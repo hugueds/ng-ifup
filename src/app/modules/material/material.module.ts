@@ -22,6 +22,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatNativeDateModule, MAT_DATE_LOCALE } from '@angular/material';
+import {MatListModule} from '@angular/material/list';
 
 
 import { ProjectDialogComponent } from '../../components/project-dialog/project-dialog.component';
@@ -50,7 +51,8 @@ const iemports = [
   MatInputModule,
   MatTabsModule,
   MatNativeDateModule,
-  FlexLayoutModule
+  FlexLayoutModule,
+  MatListModule
 ];
 
 @NgModule({

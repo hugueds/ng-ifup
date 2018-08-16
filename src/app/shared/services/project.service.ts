@@ -10,14 +10,21 @@ import { map, tap } from 'rxjs/operators';
 })
 export class ProjectService {
 
-  private api = '/api/';
-  private endPoint: string;
+  private _api = '/projects';
+
+  get endPoint() {
+    return environment.server + environment.base + this.area + this._api;
+  }
+
+  get area() {
+    return  '/' + location.href.match(/(\w+)\/\w+$/)[1];
+  }
 
   private projectSource = new Subject<Project[]>();
   projects = this.projectSource.asObservable();
 
   constructor(private _http: HttpClient) {
-    this.endPoint = this.generateEndPoint();
+
   }
 
   updateProjectList(projects: Project[]) {
@@ -50,10 +57,6 @@ export class ProjectService {
   delete(project: Project): Observable<Project> {
     const url = this.endPoint;
     return this._http.delete<Project>(url).pipe(map(res => res));
-  }
-
-  private generateEndPoint(): string {
-    return environment.server + '/ltsapi/api/dashboard';
   }
 
 

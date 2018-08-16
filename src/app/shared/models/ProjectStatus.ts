@@ -1,4 +1,4 @@
-export class ActivityStatus {
+export class ProjectStatus {
     activityId: number;
     user: string;
     status: string;

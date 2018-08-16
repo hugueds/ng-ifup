@@ -1,4 +1,4 @@
-import { GoogleChartsBaseService } from '../models/GoogleChartsBase';
+import { GoogleChartsBaseService } from './GoogleChartsBase';
 import { Injectable } from '@angular/core';
 import { PieChartConfig } from '../models/PieChart';
 

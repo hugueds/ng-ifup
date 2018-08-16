@@ -9,7 +9,7 @@ table {
 }
 
 tr:hover {
-    background-color: blueviolet;
+    background-color: slateblue;
     color: white !important;
 }
 
@@ -17,20 +17,49 @@ th.mat-header-cell {
     background-color: black;
     color: white;
     text-align: center;
+    font-weight: bold;
+    font-size: 0.9em;    
+    margin-left: 2%;
 }
 
-th.mat-sort-header-sorted {
-    color: black;
+th.mat-column-id {
+    max-width: 40px;    
 }
 
-td.row-project-percent {
-    font-size: 1rem;
+th.mat-column-functionArea {
+    max-width: 80px;        
 }
 
-td.row-project-status {
-    font-size: 0.55rem;
+th.mat-column-details {
+    max-width: 70px;
 }
 
-.project-cell, .activity-cell {
-    font-size: 0.6rem;
+.filter-container {
+    display: flex;
+}
+
+.filter-container > mat-form-field {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+/* TABLE COLUMNS*/
+.mat-column-id {
+    font-size: 0.75em;
+}
+.mat-column-functionArea {
+    font-size: 0.9em;
+}
+.mat-column-project {
+    font-size: 0.8em;
+}
+.mat-column-activity {
+    font-size: 0.8em;
+}
+.mat-column-projectStatus {
+    font-size: 0.6em;    
+}
+
+.mat-column-details {
+    
 }

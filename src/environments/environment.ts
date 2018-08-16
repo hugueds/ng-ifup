@@ -4,8 +4,10 @@
 
 export const environment = {
   production: false,
-  server: 'http://10.8.66.4',
-  base: '/'
+  prodServer: 'http://10.8.66.4',
+  server: 'http://localhost:50719',
+  prodBase: '/IFUPApi',
+  base: ''
 };
 
 /*

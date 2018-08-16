@@ -1,6 +1,6 @@
 import { Activity } from './Activity';
 
-export class VDTActivity {
+export class VDTActivity extends Activity {
     deviation: string;
     sta: string;
     staDate: Date;

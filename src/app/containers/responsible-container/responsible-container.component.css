@@ -1,11 +1,15 @@
 .responsibles-wrapper {
-
+    margin: auto;
+    width: 95%;
+    border: 1px solid #000;
+    /* display: flex; */
 }
 
 app-responsible-card {
     display: inline-block;
     margin-left: 3%;
     margin-top: 1.5%;
+    
 }
 
 .today-container {
@@ -13,7 +17,6 @@ app-responsible-card {
 }
 
 app-today-card {
-    width: 100%;
-    flex: 1 0 auto;
+
 }
 
