@@ -3,20 +3,25 @@
     width: 95%;
     border: 1px solid #000;
     /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(8, 12%);
+    justify-content: center;    
 }
 
-app-responsible-card {
-    display: inline-block;
-    margin-left: 3%;
-    margin-top: 1.5%;
-    
+app-responsible-card {        
+    margin-top: 10%;
+    margin-left: 5%;
+
 }
 
-.today-container {
-    
+.today-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
 }
 
 app-today-card {
-
+    margin-top: 10%;
+    margin-left: 2%;
 }
 

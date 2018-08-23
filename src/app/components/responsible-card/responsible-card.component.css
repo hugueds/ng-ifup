@@ -2,14 +2,15 @@
   border: black 2px solid;  
   display: block;
   align-content: center;
-  max-width: 6rem;
+  width: 100%;
+  /* max-width: 6rem; */
   align-self: center;
   align-items: center;
 }
 
 .picture {  
   display: flex;
-  flex: 1 auto;
+  width: 100%;
   align-content: center;
   justify-content: center;
 }
@@ -18,9 +19,9 @@
   justify-content: center;
   align-content: center;
   background-size: cover;
-  border-radius: 60%;
-  width: 3.8rem;
-  height: 3.5rem;
+  /* border-radius: 60%; */
+  /* width: 3.8rem; */
+  /* height: 3.5rem; */
 }
 
 .buttons {
