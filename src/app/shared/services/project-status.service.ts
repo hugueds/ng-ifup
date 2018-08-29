@@ -45,6 +45,11 @@ export class ProjectStatusService {
   }
 
   getByUser(user: string, isResponsible?: boolean): Observable<ProjectAndStatus[]> {
+    const url = `${this.endPoint}/user/${user}`;
+    return this._http.get<ProjectAndStatus[]>(url).pipe(map(res => res));
+  }
+
+  getByUserResponsability(user: string, isResponsible?: boolean): Observable<ProjectAndStatus[]> {
     let url = `${this.endPoint}/user/${user}`;
     url = isResponsible ? `${url}?isResponsible=true` : `${url}?isResposible=false`;
     return this._http.get<ProjectAndStatus[]>(url).pipe(map(res => res));

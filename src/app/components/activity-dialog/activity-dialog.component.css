@@ -1,0 +1,12 @@
+.dialog-wrapper {
+    /* display: flex; */
+}
+
+.dialog-header {
+    width: 100%;
+}
+
+mat-list-option {
+    width: 50%;
+}
+

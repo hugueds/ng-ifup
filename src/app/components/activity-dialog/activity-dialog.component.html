@@ -1,21 +1,32 @@
 <div class="dialog-wrapper">
-  <div>
-    <div mat-dialog-title> ATIVIDADES </div>
-    <button mat-button mat-dialog-close>
-      <mat-icon>clear</mat-icon>
-    </button>
+
+  <div class="dialog-header">
+    <div mat-dialog-title>
+      <span> ATIVIDADES </span>           
+      <button mat-button mat-dialog-close>
+          <mat-icon>clear</mat-icon>
+        </button>
+    </div>   
   </div>
 
 
   <mat-dialog-content>
     <mat-selection-list #projects>
-      <mat-list-option *ngFor="let p of pjStatus">
-        <div>{{p.project.id}}</div>
-        <div>{{p.project.project}}</div>
-        <button (click)="openProject(p.project.id)" mat-raised-button mat-dialog-close color="primary">VER</button>
-      </mat-list-option>
+      <ng-container *ngFor="let p of pjStatus">
+          <mat-list-option >
+              <div>{{p.project.id}} - {{p.project.project}}</div>              
+              <!-- <button (click)="openProject(p.project.id)" mat-raised-button mat-dialog-close color="primary">VER</button> -->
+            </mat-list-option>
+            <button mat-raised-button> Y </button>
+      </ng-container>
+      
     </mat-selection-list>
+    <mat-selection-list #projects>
+        <mat-list-option *ngFor="let p of pjStatus">          
+        </mat-list-option>
+      </mat-selection-list>
   </mat-dialog-content>
+
   <mat-dialog-actions>
     <button (click)="save()" mat-raised-button mat-dialog-close color="primary">
       SALVAR

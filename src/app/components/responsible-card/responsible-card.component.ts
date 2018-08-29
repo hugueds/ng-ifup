@@ -24,9 +24,8 @@ export class ResponsibleCardComponent implements OnInit {
   ngOnInit() {
   }
 
-  open(activityType: number) {
-    const isResposible = activityType === 1 ? true : false;
-    this._psService.getByUser(this.person, isResposible).subscribe(ps => {
+  open() {
+    this._psService.getByUser(this.person).subscribe((ps: ProjectAndStatus[]) => {
       const dialogRef = this._dialog.open(ActivityDialogComponent,
         { data: ps }
       );
